@@ -6,7 +6,7 @@ browserSync({
     middleware: []
   },
   files: [
-    '*.html',
-    '*.js'
+    'dist/*.html',
+    'dist/*.js'
   ]
 });
