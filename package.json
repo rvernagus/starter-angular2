@@ -1,14 +1,14 @@
 {
-  "name": "tutorial",
-  "version": "1.0.0",
-  "description": "",
+  "name": "starter-angular2",
+  "version": "0.0.1",
+  "description": "A starter project for an Angular 2 app.",
   "main": "app.js",
   "scripts": {
     "start": "parallelshell \"npm run tsc\" \"node scripts/start.js\"",
     "tsc": "tsc -p ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ray Vernagus <r.vernagus@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "parallelshell": "2.0.0",
     "typescript": "1.7.5"
