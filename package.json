@@ -1,0 +1,16 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "parallelshell \"npm run tsc\" \"node scripts/start.js\"",
+    "tsc": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parallelshell": "2.0.0",
+    "typescript": "1.7.5"
+  }
+}
