@@ -4,6 +4,7 @@
     "module": "commonjs",
     "watch": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "outDir": "dist"
   }
 }

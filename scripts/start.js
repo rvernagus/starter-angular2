@@ -2,11 +2,11 @@ var browserSync = require('browser-sync');
 
 browserSync({
   server: {
-    baseDir: 'src',
+    baseDir: 'dist',
     middleware: []
   },
   files: [
-    'src/*.html',
-    'src/*.js'
+    '*.html',
+    '*.js'
   ]
 });
