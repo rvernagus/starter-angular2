@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node scripts/build.js",
     "prestart": "npm run remove-dist",
-    "start": "parallelshell \"npm run tsc\" \"node scripts/start.js\"",
+    "start": "parallelshell \"node scripts/build.js\" \"npm run tsc\" \"node scripts/start.js\"",
     "tsc": "tsc -p .",
     "clean-dist": "npm run remove-dist && mkdir dist",
     "remove-dist": "node_modules/.bin/rimraf ./dist"
